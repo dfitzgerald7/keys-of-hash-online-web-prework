@@ -4,6 +4,7 @@ class Hash
     Hash.each do |key, value|
       my_array << value if value.include?(arguments)
     end 
+    my_array  
   end
-  my_array
+  
 end
