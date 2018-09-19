@@ -5,4 +5,5 @@ class Hash
       my_array << value if value.include?(arguments)
     end 
   end
+  my_array
 end
